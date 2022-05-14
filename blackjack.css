@@ -1,0 +1,34 @@
+.text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+body{
+    text-align: center;
+    background-color: #016f32;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+#head{
+    text-align: center;
+    color:goldenrod;
+}
+.btn{
+    color: #016f32;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    width: 400px;
+    height: 40px;
+    border: none;
+    background-color: goldenrod;
+    margin-bottom: 4px;
+}
+#refresh{
+    text-decoration: none;
+}

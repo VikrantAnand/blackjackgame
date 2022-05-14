@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <h1 id="head">
+        BlackJack Game
+    </h1> 
+    <div class="text">
+
+        <p id="msg-el">Want to play a round ?</p>   
+        <p id="card-el">Cards :</p>
+        <p id="sum-el">Sum :</p>
+    </div>
+    <button id="start-btn" class="btn" onclick="startGame()">Start Game</button>
+    <br>
+    <button id="new-btn" class="btn" onclick="newCard()">New Card</button>
+    <p id="player-el">$123</p>
+    <!-- <a id="refresh" class="btn" href="blackjackgame.html">Restart Game</a> -->
+    
+    <a id="refresh" class="btn">Restart Game</a>
+    
+</body>
+<script src="blackjack.js"></script>
+</html>
